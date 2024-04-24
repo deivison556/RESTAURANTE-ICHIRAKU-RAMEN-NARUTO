@@ -18,3 +18,53 @@
   --corTerciaria: #f4edea;
   --corQuaternaria: #ffdbb5;
 }
+body {
+  background-color: var(--corTerciaria);
+}
+
+/* cabeçalho do site */
+#header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  width: 100%;
+}
+
+#header-container img {
+  width: 60px;
+  height: 50px;
+  margin-left: 10px;
+}
+
+#header-container #header-navegacao-links {
+   width: 562px;
+   height: 44px;
+   margin-right: 10px;
+}
+
+#header-container #header-navegacao-links ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#header-container #header-navegacao-links ul li {
+  list-style: none;
+  padding-top: 5px;
+}
+
+#header-container #header-navegacao-links ul li a {
+  text-decoration: none;
+  font-family: var(--fontPrincipal);
+  color: var(--corPrimaria);
+  font-size: 24px;
+}
+
+#header-container #header-navegacao-links ul li a span {
+  color: var(--corSecundaria);
+}
+
+#header-container #header-navegacao-links ul li a:hover {
+  border-bottom: 1px solid var(--corSecundaria);
+}
