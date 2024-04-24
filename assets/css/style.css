@@ -1,0 +1,20 @@
+/* Importação de fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* Resetando pré definições */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+/* Declaração de fontes e paleta de cores */
+:root {
+  --fontPrincipal: "Lato", sans-serif;
+  --fontSecundaria: "Fondamento", cursive;
+  --corPrimaria: #000000;
+  --corSecundaria: #ff5400;
+  --corTerciaria: #f4edea;
+  --corQuaternaria: #ffdbb5;
+}
