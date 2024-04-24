@@ -18,6 +18,7 @@
   --corTerciaria: #f4edea;
   --corQuaternaria: #ffdbb5;
 }
+
 body {
   background-color: var(--corTerciaria);
 }
