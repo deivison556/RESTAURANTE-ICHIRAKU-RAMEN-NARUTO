@@ -142,3 +142,62 @@ main {
   max-width: 100%;
   height: 560px;
 }
+
+/* sessão de cardapio */
+#container-cardapio {
+  width: 100%;
+  height: 674px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#container-cardapio h1 {
+  font-size: 48px;
+}
+
+#container-cardapio p {
+  font-size: 32px;
+}
+
+#container-cardapio p span {
+  color: var(--corSecundaria);
+}
+
+#container-cardapio #container-cardapio-pratos {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 30px;
+  width: 100%;
+  height: 440px;
+}
+
+#container-cardapio .box-imagem-pratos {
+  width: 300px;
+  height: 350px;
+  transition: 1.2s;
+}
+
+#container-cardapio .box-imagem-pratos:hover {
+  background-color: var(--corSecundaria);
+  transition: 2s;
+}
+
+#container-cardapio .box-imagem-pratos img {
+  width: 300px;
+  height: 300px;
+  transition: 1.2s;
+  cursor: pointer;
+}
+
+#container-cardapio .box-imagem-pratos img:hover {
+  transform: translateY(-10%);
+  filter: drop-shadow(1px 1px 10px #000000);
+  transition: 2s;
+}
+
+#container-cardapio .box-imagem-pratos .paragrafo-descricao-prato {
+  font-size: 24px;
+}
