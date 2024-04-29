@@ -201,3 +201,46 @@ main {
 #container-cardapio .box-imagem-pratos .paragrafo-descricao-prato {
   font-size: 24px;
 }
+
+
+
+/* Sessão de feedback */
+#section-feedback {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#section-feedback h2 {
+  font-size: 48px;
+}
+
+#section-feedback h2 span {
+  color: var(--corSecundaria);
+}
+
+#section-feedback .container-feedbacks {
+  background-color: white;
+  margin: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  border: 1px solid var(--corPrimaria);
+  padding: 8px;
+  width: 850px;
+  height: 150px;
+}
+
+#section-feedback .container-feedbacks img {
+  width: 150px;
+  height: 120px;
+}
+
+#section-feedback .container-feedbacks p {
+  font-size: 18px;
+  text-align: center;
+}
