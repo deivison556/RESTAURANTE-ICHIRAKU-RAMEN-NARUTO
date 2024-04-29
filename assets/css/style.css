@@ -244,3 +244,16 @@ main {
   font-size: 18px;
   text-align: center;
 }
+
+/* Rodapé do site */
+footer {
+  background-color: rgb(51, 50, 50);
+  height: 55px;
+}
+
+footer p {
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+  font-size: 18px;
+}
