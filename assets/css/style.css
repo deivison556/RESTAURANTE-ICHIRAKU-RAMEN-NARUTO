@@ -109,6 +109,15 @@ main {
 
 #main-box-conteudo p {
   font-size: 20px;
+  padding: 10px;
+  text-align: left;
+}
+
+#main-box-conteudo p #span-experimente {
+  text-align: center;
+  display: flex;
+  margin: 10px auto;
+  width: 300px;
 }
 
 #main-box-conteudo #main-button {
