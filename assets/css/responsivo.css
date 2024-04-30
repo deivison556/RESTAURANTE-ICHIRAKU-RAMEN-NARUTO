@@ -16,7 +16,8 @@
 }
 
 #main-box-conteudo p {
-  font-size: 20px;
+  font-size: 18px;
+  text-align: center;
 }
 
 /* Imagem do Naruto */
@@ -60,5 +61,83 @@
 /* Sessão de feedback */
 #section-feedback h2 {
   font-size: 30px;
+}
+}
+
+/* Telas de 834px */
+@media screen and (max-width: 834px) {
+/* Main - conteudo principal do site */
+main {
+  height: 500px;
+}
+
+#main-box-conteudo {
+  width: 500px;
+  height: 350px;
+}
+
+#main-box-conteudo h2 {
+  font-size: 22px;
+}
+
+#main-box-conteudo h1 {
+  font-size: 50px;
+}
+
+/* Imagem do Naruto */
+#main-box-imagem {
+  width: 320px;
+  height: 350px;
+}
+
+#main-box-imagem img {
+  width: 320px;
+  height:350px;
+}
+
+/* sessão de cardapio */
+#container-cardapio {
+  height: 600px;
+}
+
+#container-cardapio h2 {
+  font-size: 35px;
+}
+
+#container-cardapio p {
+  font-size: 28px;
+}
+
+#container-cardapio #container-cardapio-pratos {
+  height: 400px;
+}
+
+#container-cardapio .box-imagem-pratos {
+  width: 250px;
+  height: 300px;
+}
+
+#container-cardapio .box-imagem-pratos img {
+  width: 250px;
+  height: 250px;
+}
+
+/* Sessão de feedback */
+#section-feedback h2 {
+  font-size: 25px;
+}
+
+#section-feedback .container-feedbacks {
+  width: 650px;
+  padding: 20px;
+}
+
+#section-feedback .container-feedbacks img {
+  margin-right: 20px;
+}
+
+#section-feedback .container-feedbacks p {
+  font-size: 16px;
+  text-align: justify;
 }
 }
