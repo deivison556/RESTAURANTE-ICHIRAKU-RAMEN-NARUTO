@@ -1,0 +1,64 @@
+/* Telas de 1024px */
+@media screen and (max-width: 1024px) {
+/* Main - conteudo principal do site - descrição*/
+#main-box-conteudo {
+  width: 550px;
+  height: 350px;
+  margin-right: 10px;
+}
+
+#main-box-conteudo h2 {
+  font-size: 20px;
+}
+
+#main-box-conteudo h1 {
+  font-size: 50px;
+}
+
+#main-box-conteudo p {
+  font-size: 20px;
+}
+
+/* Imagem do Naruto */
+#main-box-imagem {
+  width: 450px;
+  height: 450px;
+}
+
+#main-box-imagem img {
+  max-width: 450px;
+  height: 450px;
+}
+
+/* sessão de cardapio */
+#container-cardapio {
+  height: 600px;
+}
+
+#container-cardapio h2 {
+  font-size: 40px;
+}
+
+#container-cardapio p {
+  font-size: 30px;
+}
+
+#container-cardapio #container-cardapio-pratos {
+  height: 400px;
+}
+
+#container-cardapio .box-imagem-pratos {
+  width: 250px;
+  height: 300px;
+}
+
+#container-cardapio .box-imagem-pratos img {
+  width: 250px;
+  height: 250px;
+}
+
+/* Sessão de feedback */
+#section-feedback h2 {
+  font-size: 30px;
+}
+}
