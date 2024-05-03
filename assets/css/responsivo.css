@@ -17,7 +17,6 @@
 
 #main-box-conteudo p {
   font-size: 18px;
-  text-align: center;
 }
 
 /* Imagem do Naruto */
@@ -139,5 +138,38 @@ main {
 #section-feedback .container-feedbacks p {
   font-size: 16px;
   text-align: justify;
+}
+}
+
+/* Telas de 768px */
+@media screen and (max-width: 768px) {
+#main-box-conteudo {
+  width: 500px;
+  height: 400px;
+  background-color: white;
+}
+
+#main-box-conteudo p {
+  text-align: justify;
+}
+
+#main-box-conteudo p #span-experimente {
+  margin-top: 20px;
+  margin-bottom: -5px;
+}
+
+/* sessão de cardapio */
+#container-cardapio #container-cardapio-pratos {
+  height: 400px;
+}
+
+#container-cardapio .box-imagem-pratos {
+  width: 230px;
+  height: 280px;
+}
+
+#container-cardapio .box-imagem-pratos img {
+  width: 220px;
+  height: 220px;
 }
 }
