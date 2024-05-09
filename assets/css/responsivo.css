@@ -172,3 +172,100 @@ main {
   height: 220px;
 }
 }
+
+/* Telas de 428px */
+@media screen and (max-width: 428px) {
+/* Main - conteudo principal do site */
+main {
+  flex-direction: column;
+  height: 780px;
+}
+
+#main-box-conteudo {
+  width: 380px;
+  height: 400px;
+  margin-top: 40px;
+}
+
+#main-box-conteudo h1 {
+  font-size: 30px;  
+}
+
+#main-box-conteudo p {
+  
+}
+    
+#main-box-conteudo p #span-experimente {
+  margin-top: 10px;
+  width: 200px;
+  margin-bottom: -15px;
+}
+  
+/* Imagem do Naruto */
+#main-box-imagem {
+  width: 350px;
+  height: 300px;
+  margin-bottom: 10px;
+}
+  
+#main-box-imagem img {
+  width: 350px;
+  height: 300px;
+}
+    
+/* sessão de cardapio */
+#container-cardapio {
+  height: 1100px;
+}
+  
+#container-cardapio h2 {
+  font-size: 30px;
+}
+  
+#container-cardapio #container-cardapio-pratos {
+  height: 900px;
+}
+    
+#container-cardapio .box-imagem-pratos {
+  width: 230px;
+  height: 280px;
+}
+    
+#container-cardapio .box-imagem-pratos img {
+  width: 220px;
+  height: 220px;
+}
+  
+#container-cardapio #container-cardapio-pratos {
+  flex-direction: column;
+}
+  
+/* Sessão de feedback */
+#section-feedback {
+  height: 1000px;
+}
+  
+#section-feedback h2 {
+  font-size: 25px;
+  padding-top: 50px;
+  text-align: center;
+}
+  
+#section-feedback .container-feedbacks {
+  width: 300px;
+  height: 400px;
+  flex-direction: column;
+  padding: 20px;
+}
+  
+#section-feedback .container-feedbacks img {
+  margin-right: 20px;
+  width: 100px;
+  height: 100px;
+}
+  
+#section-feedback .container-feedbacks p {
+  font-size: 18px;
+  text-align: justify;
+}
+}
