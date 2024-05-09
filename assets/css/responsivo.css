@@ -73,6 +73,7 @@ main {
 #main-box-conteudo {
   width: 500px;
   height: 350px;
+  margin-top: 40px;
 }
 
 #main-box-conteudo h2 {
@@ -87,6 +88,7 @@ main {
 #main-box-imagem {
   width: 320px;
   height: 350px;
+  margin-top: 40px;
 }
 
 #main-box-imagem img {
@@ -146,6 +148,7 @@ main {
 #main-box-conteudo {
   width: 500px;
   height: 400px;
+  margin-top: 80px;
 }
 
 #main-box-conteudo p {
@@ -178,21 +181,17 @@ main {
 /* Main - conteudo principal do site */
 main {
   flex-direction: column;
-  height: 780px;
+  height: 900px;
 }
 
 #main-box-conteudo {
   width: 380px;
   height: 400px;
-  margin-top: 40px;
+  margin-top: 100px;
 }
 
 #main-box-conteudo h1 {
   font-size: 30px;  
-}
-
-#main-box-conteudo p {
-  
 }
     
 #main-box-conteudo p #span-experimente {
@@ -205,7 +204,7 @@ main {
 #main-box-imagem {
   width: 350px;
   height: 300px;
-  margin-bottom: 10px;
+  margin-bottom: 60px;
 }
   
 #main-box-imagem img {
@@ -269,3 +268,36 @@ main {
   text-align: justify;
 }
 }
+
+/* Telas de 390px */
+@media screen and (max-width: 390px) {
+main {
+  height: 950px;
+}
+  
+#main-box-conteudo {
+  width: 350px;
+  height: 400px;
+}
+   
+/* Imagem do Naruto */
+#main-box-imagem {
+  width: 320px;
+  margin-bottom: 180px;
+}
+    
+#main-box-imagem img {
+  width: 320px;
+}
+
+/* Sessão cardapio */
+#container-cardapio h2 {
+  font-size: 25px;
+}
+}
+
+/* rodapé */
+footer p {
+  font-size: 14px;
+}
+
