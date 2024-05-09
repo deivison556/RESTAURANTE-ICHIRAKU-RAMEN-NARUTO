@@ -279,7 +279,7 @@ main {
   width: 350px;
   height: 400px;
 }
-   
+
 /* Imagem do Naruto */
 #main-box-imagem {
   width: 320px;
@@ -301,3 +301,105 @@ footer p {
   font-size: 14px;
 }
 
+/* Telas de 360px */
+@media screen and (max-width: 360px) {
+/* cabeçalho do site */
+#header-container {
+  height: 60px;
+}
+
+#header-container img {
+  display: none;
+}
+
+#header-container #header-navegacao-links ul li a {
+  font-size: 20px;
+}
+
+/* Main - conteudo principal do site */
+#main-box-conteudo {
+  width: 320px;
+  height: 400px;
+}
+
+#main-box-conteudo h1 {
+  font-size: 30px;  
+}
+
+#main-box-conteudo h2 {
+  font-size: 20px;
+}
+  
+/* Imagem do Naruto */
+#main-box-imagem {
+  width: 280px;
+  height: 250px;
+  margin-bottom: 120px;
+}
+  
+#main-box-imagem img {
+  width: 280px;
+  height: 250px;
+}
+
+/* Sessão cardapio */
+#container-cardapio h2 {
+  font-size: 25px;
+}
+
+#container-cardapio p {
+  font-size: 20px;
+}
+
+#container-cardapio .box-imagem-pratos .paragrafo-descricao-prato {
+  font-size: 20px;
+}
+
+/* Sessão de feedback */
+#section-feedback h2 {
+  font-size: 22px;
+}
+}
+
+/* Telas de 320px */
+@media screen and (max-width: 320px) {
+/* Main - conteudo principal do site */
+#main-box-conteudo {
+  width: 280px;
+  height: 450px;
+}
+
+#main-box-conteudo h1 {
+  font-size: 30px;  
+}
+
+#main-box-conteudo h2 {
+  font-size: 20px;
+}
+
+/* Imagem do Naruto */
+#main-box-imagem {
+  width: 260px;
+  height: 250px;
+}
+  
+#main-box-imagem img {
+  width: 260px;
+  height: 250px;
+}
+
+/* Sessão cardapio */
+#container-cardapio h2 {
+  font-size: 22px;
+}
+
+/* Sessão de feedback */
+#section-feedback .container-feedbacks {
+  width: 280px;
+  height: 400px;
+}
+
+#section-feedback .container-feedbacks p {
+  font-size: 16px;
+}
+}
