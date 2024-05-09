@@ -30,6 +30,8 @@ body {
   justify-content: space-between;
   height: 80px;
   width: 100%;
+  position: fixed;
+  background-color: var(--corQuaternaria);
 }
 
 #header-container img {
