@@ -207,7 +207,7 @@ main {
 #main-box-conteudo p #span-experimente {
   margin-top: 10px;
   width: 200px;
-  margin-bottom: -15px;
+  margin-bottom: 15px;
 }
   
 /* Imagem do Naruto */
@@ -329,7 +329,7 @@ footer p {
 /* Main - conteudo principal do site */
 #main-box-conteudo {
   width: 320px;
-  height: 400px;
+  height: 420px;
 }
 
 #main-box-conteudo h1 {
@@ -338,6 +338,10 @@ footer p {
 
 #main-box-conteudo h2 {
   font-size: 20px;
+}
+
+#main-box-conteudo p #span-experimente {
+  margin-bottom: 10px;
 }
   
 /* Imagem do Naruto */
@@ -376,7 +380,9 @@ footer p {
 /* Main - conteudo principal do site */
 #main-box-conteudo {
   width: 280px;
-  height: 450px;
+  height: 480px;
+  padding-top: 25px;
+  margin-bottom: 40px;
 }
 
 #main-box-conteudo h1 {
@@ -384,7 +390,7 @@ footer p {
 }
 
 #main-box-conteudo h2 {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 /* Imagem do Naruto */
