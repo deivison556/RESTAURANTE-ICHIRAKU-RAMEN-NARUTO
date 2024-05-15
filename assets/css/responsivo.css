@@ -3,8 +3,7 @@
 /* Main - conteudo principal do site - descrição*/
 #main-box-conteudo {
   width: 550px;
-  height: 350px;
-  margin-right: 10px;
+  height: 380px;
 }
 
 #main-box-conteudo h2 {
@@ -12,22 +11,29 @@
 }
 
 #main-box-conteudo h1 {
-  font-size: 50px;
+  font-size: 60px;
 }
 
 #main-box-conteudo p {
-  font-size: 18px;
+  font-size: 20px;
+}
+
+#main-box-conteudo #main-button {
+  width: 180px;
+  height: 40px;
+  padding-top: 8px;
+  padding-left: 45px;
 }
 
 /* Imagem do Naruto */
 #main-box-imagem {
-  width: 450px;
-  height: 450px;
+  width: 420px;
+  height: 400px;
 }
 
 #main-box-imagem img {
-  max-width: 450px;
-  height: 450px;
+  max-width: 420px;
+  height: 400px;
 }
 
 /* sessão de cardapio */
